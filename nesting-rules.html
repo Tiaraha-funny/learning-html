@@ -1,37 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>
-        Nesting rules
-    </title>
-  </head>
-  <body>
-    <header>
-      <h1>
-        Nesting rules
-      </h1>
-    </header>
-    <main>
-        <article>
-            <header>
-                <h3>
-                    Lists of the rules
-                </h3>
-            </header>
-            <ol>
-                <li>
-                    Define a <code>&lt;!DOCTYPE.hTML&gt;</code>at the top of the document.
-                </li>
-                <li>
-                    You can not have an end tag if without start tag.
-                </li>
-            </ol>
-        </article>
-    </main>
-    <footer>
 
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>
+    Nesting rules
+  </title>
+</head>
+
+<body>
+  <header>
+    <h1>
+      Nesting rules
+    </h1>
+  </header>
+  <nav>
+    <p>
+      This rule is based on using tags and names of the element properly because you are going to nest them in your
+      document.
+    </p>
+    <p>
+      In your document you must have those:
+    </p>
+    <ul>
+      <li>
+        Syntax:
+        <p>
+          You need to use syntax which are starting tags and closing tags. Every single one of them must be there is an
+          element.
+        </p>
+      </li>
+      <li>
+        Content:
+        <p>
+          Content is in between open and close tag which you need to put. Content means the things inside or in the
+          middle of the tags.
+        </p>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <header>
+        <h3>
+          Lists of the rules
+        </h3>
+      </header>
+      <ol>
+        <li>
+          <p>
+            Define a <code>&lt;!DOCTYPE.html&gt;</code> at the top of the document.
+          </p>
+        </li>
+        <li>
+          <p>
+            You can not have an end tag without an open tag.
+          </p>
+        </li>
+        <li>
+          <p>
+            <q><b>Quotation</b></q>: Do not do <q>quotation</q> inside <q>quotation</q>.
+          </p>
+        </li>
+        <li>
+          You should use lowercase for element.
+        </li>
+        <li>
+          <p>
+            <em><q><b>DO NOT USE:</b></q></em>
+          </p>
+          <img src="bad-html.png" alt>
+          <p>
+            - Never use <code>&lt;ol&gt;</code> as a child of <code>&lt;ul&gt;</code>
+          </p>
+          <p>
+            -Never use <code>&lt;p&gt;</code> as a child of <code>&lt;ol&gt;</code> or <code>&lt;ul&gt;</code>
+          </p>
+          <p>
+            - Never use <code>&lt;artictle&gt;</code> without <code>&lt;header&gt;</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            <em><q><b>USE THOSE INSTEAD:</b></q></em>
+          </p>
+          <img src="html.png" alt>
+          <p>
+            - Use <code>&lt;li&gt;</code> as a child of <code>&lt;ol&gt;</code> or <code>&lt;ul&gt;</code> and then put
+            <code>&lt;p&gt;</code> inside.
+          </p>
+          <p>
+            - Use <code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code> as a child <code>&lt;article&gt;</code>
+          </p>
+        </li>
+      </ol>
+    </article>
+  </main>
+  <footer>
+    <h3>Summary:</h3>
+    <p>
+      Nesting rule is a descipline of the way how you arrange the tags properly. It allows you to nest your tags
+      properly.
+      <p>
+        <ins>Some advice</ins>
+      </p> Making sure that you follow the rules, check your code in <a
+        href="https://validator.w3.org/">html5.validator</a> to avoid mistake.
+      <p>
+        <a href="rules.html">Go back to the rules.html</a>
+      </p>
+      <p>
+        <a href="mailto:jeannie.petah@gmail.com">Email me for more information.</a>
+      </p>
+  </footer>
+</body>
+
 </html>
