@@ -3,9 +3,9 @@
 
 In this project, we are going to learn about HTML.
 
-We will see those information:
+We will see the information in these files:
 
-- [Homepage](#some-hints)
+- [Index](#some-hints)
 - [Elements](#sections)
 - [Rules](#pages)
 - [Tips](#getting-started)
