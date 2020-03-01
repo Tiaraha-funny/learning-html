@@ -11,7 +11,7 @@ We will see the information in these files:
 - [Tips](#getting-started)
 
 
-## What slould be seen in this website
+## What should be seen in this website
 
 We won't be creating all the possible pages in this website. Instead, we'll be building at least the following 6 example pages:
 
